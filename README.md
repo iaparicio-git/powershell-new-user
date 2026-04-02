@@ -19,11 +19,11 @@ Automates user provisioning in a hybrid Active Directory and Microsoft Entra ID 
 Manual provisioning across on-premises Exchange, Active Directory, and Exchange Online required coordinating multiple admin consoles and waiting on sync cycles, taking 30–35 minutes per batch of users. This script consolidates the entire workflow into a single execution, completing provisioning in approximately 3 minutes.
 
 # Environment
-Hybrid AD and Entra ID (Azure AD Connect / Entra Connect)
-On-premises Exchange with remote mailbox provisioning
-Exchange Online
-Microsoft Graph API
-PowerShell
+- Hybrid AD and Entra ID (Azure AD Connect / Entra Connect)
+- On-premises Exchange with remote mailbox provisioning
+- Exchange Online
+- Microsoft Graph API
+- PowerShell
 
 # Notes
 Sensitive values (credentials, tenant IDs, etc.) are not included. The script is sanitized for portfolio use.
