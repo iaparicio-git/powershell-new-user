@@ -16,7 +16,7 @@ Automates user provisioning in a hybrid Active Directory and Microsoft Entra ID 
 11. Disconnects from Microsoft Graph
 
 # Why It Was Built
-Manual provisioning across on-premises Exchange, Active Directory, and Exchange Online required coordinating multiple admin consoles and waiting on sync cycles, taking 30–35 minutes per batch of users. This script consolidates the entire workflow into a single execution, completing provisioning in approximately 3 minutes.
+Manual provisioning of 1-3 users across on-premises Exchange, Active Directory, and Exchange Online required coordinating multiple admin consoles and waiting on sync cycles, taking 30–35 minutes. This script consolidates the entire workflow into a single execution, completing in roughly 3 minutes.
 
 # Environment
 - Hybrid AD and Entra ID (Azure AD Connect / Entra Connect)
